@@ -4,7 +4,6 @@
 
 <GridLayout>
   <WebView
-    backgroundColor="gray"
     src="
       <style type='text/css'>
         body {
@@ -16,28 +15,33 @@
       </style>
 
       <div id='meet'></div>
-
-      <script src='https://meet.jit.si/external_api.js'></script>
-
+      
       <script>
-        const domain = 'meet.jit.si';
-        const options = {
-          roomName: 'asdzxcfghvbn123qwe',
-          parentNode: document.querySelector('#meet'),
-          lang: 'en',
-          userInfo: {
-            email: 'test@test.com',
-            displayName: 'John Doe Junior',
-          },
-          interfaceConfigOverwrite: {
-            APP_NAME: 'NS Jitsi Meet',
-            NATIVE_APP_NAME: 'NS Jitsi Meet',
-            SHOW_JITSI_WATERMARK: false,
-            HIDE_DEEP_LINKING_LOGO: true,
-          }
-        };
-        const api = new JitsiMeetExternalAPI(domain, options);
+        window.initJitsiApi = () => {
+          const domain = 'meet.jit.si';
+          const options = {
+            roomName: 'asdzxcfghvbn123qwe',
+            parentNode: document.querySelector('#meet'),
+            lang: 'en',
+            userInfo: {
+              email: 'test@test.com',
+              displayName: 'John Doe Junior',
+            },
+            configOverwrite: {
+              disableDeepLinking: true,
+            },
+            interfaceConfigOverwrite: {
+              APP_NAME: 'NS Jitsi Meet',
+              NATIVE_APP_NAME: 'NS Jitsi Meet',
+              SHOW_JITSI_WATERMARK: false,
+              HIDE_DEEP_LINKING_LOGO: true,
+            }
+          };
+          const api = new JitsiMeetExternalAPI(domain, options);
+        }
       </script>
+
+      <script src='https://meet.jit.si/external_api.js' onload='window.initJitsiApi()'></script>
     "
   >
   </WebView>
