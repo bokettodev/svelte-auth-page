@@ -1,1 +1,5 @@
-# nativescript-ng-jitsi-meet
+## Svelte Auth Page
+
+## License
+
+[MIT](LICENSE.md)
