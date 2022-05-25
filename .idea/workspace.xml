@@ -2,86 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed2c261f-5fda-4dd3-ba9a-a5af8d6348aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/app.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/before-plugins.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/drawable-hdpi/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/drawable-hdpi/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/drawable-ldpi/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/drawable-ldpi/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/drawable-mdpi/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/drawable-mdpi/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/drawable-nodpi/splash_screen.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/drawable-xhdpi/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/drawable-xhdpi/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/drawable-xxhdpi/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/drawable-xxhdpi/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/drawable-xxxhdpi/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/drawable-xxxhdpi/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/values-v21/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/values-v21/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/values-v29/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/values/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/Android/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-20@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-20@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-60@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-60@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-76@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-83.5@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/LaunchScreen-AspectFill.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/LaunchScreen-AspectFill@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/LaunchScreen-AspectFill@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/LaunchScreen-Center.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/LaunchScreen-Center@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/LaunchScreen-Center@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/LaunchScreen.storyboard" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Resources/iOS/build.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nativescript.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/references.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +16,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29aBVLLZCSpN1ZJAHRZFjhvVllt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -112,7 +35,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "F:\\Programming\\bokettodev\\svelte-zoo\\auth-page\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "ts.external.directory.path": "F:\\Programming\\bokettodev\\svelte-zoo\\auth-page\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   },
@@ -135,6 +58,8 @@
       <workItem from="1653341344537" duration="309000" />
       <workItem from="1653341664778" duration="1761000" />
       <workItem from="1653344734135" duration="264000" />
+      <workItem from="1653345010604" duration="380000" />
+      <workItem from="1653502103011" duration="4245000" />
     </task>
     <servers />
   </component>
@@ -151,5 +76,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
