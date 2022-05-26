@@ -1,6 +1,6 @@
 <script lang="ts">
-    import AuthForm from '../auth/auth-form.svelte';
-    import AuthInfo from '../auth/auth-info.svelte';
+    import AuthForm from './auth-form.svelte';
+    import AuthInfo from './auth-info.svelte';
 </script>
 
 <article>

@@ -1,17 +1,22 @@
+<script lang="ts">
+    import Button from '../../shared/button/button.svelte';
+    import LookingJobButton from './looking-job-button.svelte';
+</script>
+
 <section>
     <p>Already have an account?</p>
 
     <article>
         <h3>Create your free account</h3>
+
+        <div>
+            <Button color="secondary" text='Sign up with Google'></Button>
+            <Button color="secondary" text='Sign up with Facebook'></Button>
+            <Button text='Sign up with Email'></Button>
+        </div>
     </article>
 
-    <div>
-        <i>&#9874;</i>
-        <p>
-            <span>Are you looking for a job?</span>
-            <span>Click here to apply</span>
-        </p>
-    </div>
+    <LookingJobButton/>
 </section>
 
 <style lang="scss">
@@ -31,48 +36,21 @@
       font-weight: bold;
     }
 
-    > div {
-      cursor: pointer;
+    > article {
       display: flex;
+      flex-direction: column;
       align-items: center;
       gap: 1em;
-      padding: 1em 1.5em;
-      border-radius: 1em;
-      background-color: var(--background-secondary-color);
+      width: 75%;
 
-      i {
-        font-size: 2rem;
-        font-style: normal;
-        line-height: 2rem;
-      }
-
-      > p {
+      > div {
         display: flex;
         flex-direction: column;
-        gap: 0.25em;
+        gap: 1em;
+        width: 50%;
 
-        > span {
-          font-size: 0.9em;
-          font-weight: bold;
-          letter-spacing: 0.02em;
-
-          &:last-child {
-            color: var(--brand-color);
-          }
-        }
-      }
-
-      &:hover {
-        i {
-          color: var(--brand-color)
-        }
-
-        > p {
-          > span {
-            &:last-child {
-              text-decoration: underline;
-            }
-          }
+        > :global(*) {
+          width: 100%;
         }
       }
     }

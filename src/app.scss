@@ -5,7 +5,8 @@
   --accent-color: #fd767a;
 
   --background-primary-color: #ffffff;
-  --background-secondary-color: #f2f1fa;
+  --background-secondary-color: #f3f3f3;
+  --background-tertiry-color: #f2f1fa;
 
   --text-primary-color: #57575f;
   --text-primary-invert-color: #fbfbfe;
@@ -27,5 +28,5 @@ body {
   height: 100vh;
   font-family: var(--font-family-primary);
   color: var(--text-primary-color);
-  background-color: var(--background-secondary-color);
+  background-color: var(--background-tertiry-color);
 }
