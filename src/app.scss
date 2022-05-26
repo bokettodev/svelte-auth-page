@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@use './styles/typography';
 
 :root {
   --brand-color: #2320a5;
@@ -25,7 +25,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: var(--font-family-primary);
   color: var(--text-primary-color);
   background-color: var(--background-secondary-color);
 }

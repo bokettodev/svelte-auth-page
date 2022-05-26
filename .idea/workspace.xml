@@ -9,11 +9,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectId" id="29aBVLLZCSpN1ZJAHRZFjhvVllt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -32,10 +38,13 @@
     "js.ns.project": "true",
     "js.ns.project.flavor": "TypeScript",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "F:\\Programming\\bokettodev\\svelte-zoo\\auth-page\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
     "ts.external.directory.path": "F:\\Programming\\bokettodev\\svelte-zoo\\auth-page\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   },
@@ -59,7 +68,8 @@
       <workItem from="1653341664778" duration="1761000" />
       <workItem from="1653344734135" duration="264000" />
       <workItem from="1653345010604" duration="380000" />
-      <workItem from="1653502103011" duration="4245000" />
+      <workItem from="1653502103011" duration="5270000" />
+      <workItem from="1653515971013" duration="9253000" />
     </task>
     <servers />
   </component>

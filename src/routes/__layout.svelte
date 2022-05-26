@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Auth Page</title>
+    <title>Svelte Auth Page</title>
 
     <style lang="scss">
       @use '../app.scss';

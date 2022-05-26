@@ -1,55 +1,58 @@
 <script lang="ts">
-
+    import AuthForm from '../auth/auth-form.svelte';
+    import AuthInfo from '../auth/auth-info.svelte';
 </script>
 
-<article class="auth">
-    <section class="auth__info auth-info"></section>
+<article>
+    <section class="auth-info">
+        <div class="auth-info__content">
+            <AuthInfo></AuthInfo>
+        </div>
+    </section>
 
-    <section class="auth__form auth-form">
-        <h1>Create your free account</h1>
+    <section class="auth-form">
+        <div class="auth-form__content">
+            <AuthForm></AuthForm>
+        </div>
     </section>
 </article>
 
 <style lang="scss">
   .auth-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    width: 35%;
     height: 100%;
+    padding: var(--padding) 0 var(--padding) var(--padding);
+    color: var(--text-primary-invert-color);
     background-color: var(--brand-color);
-    border-radius: 1rem;
+    background-image: linear-gradient(45deg, var(--accent-color) -200%, var(--brand-color));
+
+    &__content {
+      width: 100%;
+      height: 100%;
+      border-radius: var(--border-radius) 0 0 var(--border-radius);
+      overflow: hidden;
+    }
   }
 
   .auth-form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    width: 65%;
     height: 100%;
-    background-color: var(--background-primary-color);
-    border-radius: 1rem;
+    padding: var(--padding) var(--padding) var(--padding) 0;
+
+    &__content {
+      width: 100%;
+      height: 100%;
+      border-radius: 0 var(--border-radius) var(--border-radius) 0;
+      overflow: hidden;
+    }
   }
 
-  .auth {
+  article {
+    --border-radius: 2rem;
+    --padding: 8%;
+
     display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     height: 100%;
-
-    &__info {
-      width: 25%;
-      height: 80%;
-      border-top-right-radius: 0;
-      border-bottom-right-radius: 0;
-    }
-
-    &__form {
-      width: 50%;
-      height: 80%;
-      border-top-left-radius: 0;
-      border-bottom-left-radius: 0;
-    }
   }
 </style>
