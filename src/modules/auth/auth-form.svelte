@@ -1,26 +1,42 @@
 <script lang="ts">
     import Button from '../../shared/button/button.svelte';
+    import Divider from '../../shared/divider/divider.svelte';
+    import InputText from '../../shared/input/input-text.svelte';
     import LookingJobButton from './looking-job-button.svelte';
+
+    let email = '';
+
+    const signUpWithEmail = () => {
+        console.log(email)
+    }
 </script>
 
-<section>
-    <p>Already have an account?</p>
+<article>
+    <div>
+        <p>Already have an account?</p>
+        <Button color="secondary" height="2rem" text='Sign in'></Button>
+    </div>
 
-    <article>
-        <h3>Create your free account</h3>
+    <section>
+        <h2>Create your free account</h2>
 
         <div>
             <Button color="secondary" text='Sign up with Google'></Button>
             <Button color="secondary" text='Sign up with Facebook'></Button>
-            <Button text='Sign up with Email'></Button>
+
+            <Divider margin="1em 0" text="or"/>
+
+            <InputText bind:value={email} on:submit={signUpWithEmail} placeholder="Enter your email"/>
+            <Button on:click={signUpWithEmail} text='Sign up with Email'></Button>
         </div>
-    </article>
+    </section>
 
     <LookingJobButton/>
-</section>
+</article>
 
 <style lang="scss">
-  section {
+  article {
+    --elements-width: min(20rem, 50%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,29 +46,40 @@
     padding: 3em;
     background-color: var(--background-primary-color);
 
-    > p {
+    > div {
+      display: flex;
+      align-items: center;
       align-self: flex-end;
-      font-size: 0.9em;
-      font-weight: bold;
+      gap: 1em;
+
+      > p {
+        font-size: 0.9em;
+        font-weight: bold;
+      }
     }
 
-    > article {
+    > section {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 1em;
-      width: 75%;
+      justify-content: center;
+      gap: 2em;
+      width: 100%;
 
       > div {
         display: flex;
         flex-direction: column;
         gap: 1em;
-        width: 50%;
+        width: var(--elements-width);
 
         > :global(*) {
           width: 100%;
         }
       }
+    }
+
+    > :global(.looking-job-button) {
+      width: var(--elements-width);
     }
   }
 </style>

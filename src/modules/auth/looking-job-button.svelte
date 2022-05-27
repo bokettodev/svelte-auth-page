@@ -1,4 +1,4 @@
-<section>
+<section class="looking-job-button">
     <i>&#9874;</i>
     <p>
         <span>Are you looking for a job?</span>
@@ -7,14 +7,14 @@
 </section>
 
 <style lang="scss">
-  section {
+  .looking-job-button {
     cursor: pointer;
     display: flex;
     align-items: center;
     gap: 1em;
     padding: 1em 1.5em;
     border-radius: 1em;
-    background-color: var(--background-tertiry-color);
+    background-color: var(--background-tertiary-color);
 
     i {
       font-size: 2rem;

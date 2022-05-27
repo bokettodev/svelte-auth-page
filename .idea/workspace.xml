@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ed2c261f-5fda-4dd3-ba9a-a5af8d6348aa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/auth/auth-form.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/auth-form.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/button/button.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/button/button.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +72,9 @@
       <workItem from="1653345010604" duration="380000" />
       <workItem from="1653502103011" duration="5270000" />
       <workItem from="1653515971013" duration="9480000" />
-      <workItem from="1653603637025" duration="3984000" />
+      <workItem from="1653603637025" duration="4124000" />
+      <workItem from="1653679517126" duration="2531000" />
+      <workItem from="1653682082309" duration="3919000" />
     </task>
     <servers />
   </component>
