@@ -7,7 +7,6 @@
     let email = '';
 
     const signUpWithEmail = () => {
-        console.log(email)
     }
 </script>
 
@@ -36,11 +35,12 @@
 
 <style lang="scss">
   article {
-    --elements-width: min(20rem, 50%);
+    --elements-width: clamp(15em, 50%, 20em);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    gap: 1em;
     width: 100%;
     height: 100%;
     padding: 3em;
@@ -66,6 +66,10 @@
       gap: 2em;
       width: 100%;
 
+      > h2 {
+        text-align: center;
+      }
+
       > div {
         display: flex;
         flex-direction: column;
@@ -80,6 +84,18 @@
 
     > :global(.looking-job-button) {
       width: var(--elements-width);
+    }
+  }
+
+  @media (max-width: 1024px) {
+    article {
+      padding: 2em;
+
+      > section {
+        > h2 {
+          font-size: 2em;
+        }
+      }
     }
   }
 </style>

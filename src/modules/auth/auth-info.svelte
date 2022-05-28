@@ -31,13 +31,16 @@
 </article>
 
 <style lang="scss">
+  @use '../../styles/invisible-scrollbars' as *;
+
   article {
+    @include invisibleScrollbars;
     display: flex;
     flex-direction: column;
     gap: 2em;
     width: 100%;
     height: 100%;
-    padding: 3rem;
+    padding: 3em;
     background-color: rgba(255, 255, 255, 0.2);
 
     > h5 {
@@ -47,7 +50,7 @@
 
     > p {
       font-family: var(--font-family-secondary);
-      font-size: 1.5rem;
+      font-size: 1.5em;
     }
 
     > div {
@@ -63,6 +66,22 @@
           color: var(--text-secondary-color);
           font-size: 0.8em;
         }
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    article {
+      gap: 0;
+      padding: 2em 2em 4em;
+      background-color: transparent;
+
+      > h5 {
+        font-size: 2em;
+      }
+
+      > div {
+        display: none;
       }
     }
   }

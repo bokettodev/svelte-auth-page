@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed2c261f-5fda-4dd3-ba9a-a5af8d6348aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/styles/invisible-scrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/resolutions.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/auth/auth-form.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/auth-form.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/button/button.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/button/button.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/auth/auth-info.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/auth-info.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,7 @@
   <component name="ProjectId" id="29aBVLLZCSpN1ZJAHRZFjhvVllt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="1" id="Remove" />
   </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
@@ -75,6 +78,8 @@
       <workItem from="1653603637025" duration="4124000" />
       <workItem from="1653679517126" duration="2531000" />
       <workItem from="1653682082309" duration="3919000" />
+      <workItem from="1653738562682" duration="2201000" />
+      <workItem from="1653766266036" duration="5059000" />
     </task>
     <servers />
   </component>
