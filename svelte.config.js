@@ -15,6 +15,9 @@ const config = {
 		}),
 		paths: {
 			base: dev ? '' : '/svelte-auth-page'
+		},
+		prerender: {
+			default: true
 		}
 	}
 };
